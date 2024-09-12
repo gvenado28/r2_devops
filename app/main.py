@@ -1,6 +1,6 @@
 # app/main.py
-def hello_world():
-    return "Hello, DevOps!"
+def ci_cd():
+    return "Verificando la integración y entrega continua de mi R2!"
 
 if __name__ == "__main__":
-    print(hello_world())
+    print(ci_cd())
