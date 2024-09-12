@@ -50,4 +50,4 @@ jobs:
     # Step 3: Build Docker image
     - name: Build and push Docker image
       run: |
-        docker build -t your_dockerhub_user/devops-python-docker:latest .
+        docker build -t demo_devops:latest .
