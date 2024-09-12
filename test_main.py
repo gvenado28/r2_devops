@@ -1,5 +1,5 @@
 # test_main.py
-from app.main import hello_world
+from app.main import ci_cd
 
 def test_hello_world():
-    assert hello_world() == "Hello, DevOps!"
+    assert ci_cd() == "Verificando la integración y entrega continua de mi R2"
